@@ -1,0 +1,232 @@
+html { 
+	overflow-y: hidden; 
+	overflow-x: hidden; 
+} /*hides scroll bar */
+
+.gmail {
+	position: absolute;
+	color: black;
+	text-decoration: none;
+
+	right: 224px;
+	top: 25px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+.images {
+	color: black;
+	position: absolute;
+	text-decoration: none;
+
+	right: 166px;
+	top: 25px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+
+}
+
+.context_button {
+	color: #000;
+	position: absolute;
+
+	right: 125px;
+	top: 18px;
+}
+
+.sign-in_button {
+	background-color: #4486F9;
+	color: white;
+	font-weight: bold;
+	font-family: 'Arimo', sans-serif;
+	font-size: 13px;
+	border-radius: 4px;
+	text-shadow: none;
+	box-shadow: none;
+
+	position: absolute;
+	right: 38px;
+	top: 15px;
+	height: 30px;
+	width: 70px;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 12px;
+	padding-right: 12px;
+	border: 1px;
+}
+
+.googleLogo{
+	position: absolute;
+	top: 198px;
+	right: 547px;
+}
+
+.destination {
+	color: blue;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 274px;
+    right: 502px;
+}
+
+.search{
+	border-radius: 0px !important;
+	box-shadow: 3px 2px 2px 3px #DDDDDD;
+	background: transparent;
+	outline: medium none;
+	border: medium none;
+
+
+
+	position: absolute;
+	top: 320px;
+	right: 400px;
+	width: 584px;
+	height: 44px;
+	z-index: 6;
+}
+
+.googleSearch {
+	border-radius: 0px !important;
+	height: 36px; width: 136px;
+	line-height: 27px;
+	box-shadow: none;
+	
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: #F4F4F4;
+	
+	background-color: rgb(242 242 242);
+	border-color: rgb(242 242 242); 
+	color: rgb(117 117 117);
+
+background-image: -webkit-linear-gradient(50% 0%, rgb(245, 245, 245), rgb(241, 241, 241));
+background-image: -o-linear-gradient(50% 0%, rgb(245, 245, 245), rgb(241, 241, 241));
+background-image: linear-gradient(50% 0%, rgb(245, 245, 245), rgb(241, 241, 241));
+inline:1.jhp input[type="submit"]-moz-linear-gradient(center top , rgb(245, 245, 245), rgb(241, 241, 241));
+
+
+	position: absolute;
+	top: 400px;
+	right: 700px;
+}
+
+.feelingLucky {
+	border-radius: 0px !important;
+	height: 36px; width: 136px;
+	line-height: 27px;
+	box-shadow: none;
+	
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: #F4F4F4;
+	
+	background-color: rgb(242 242 242);
+	border-color: rgb(242 242 242); 
+	color: rgb(117 117 117);
+
+-moz-linear-gradient(50% 0%, rgb(245, 245, 245), rgb(241, 241, 241))
+inline:1.jhp input[type="submit"]-moz-linear-gradient(center top , rgb(245, 245, 245), rgb(241, 241, 241));
+
+
+	position: absolute;
+	top: 400px;
+	right: 550px;
+}
+
+.footer {
+	
+}
+
+.advertising{
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	left: 30px;
+}
+	
+.business {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	left: 126px;
+}
+
+
+.about {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	left: 211px;
+}
+
+
+.privacy {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	right: 320px;
+}
+
+
+.terms {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	right: 250px;
+}
+
+.settings {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: 12px;
+	right: 170px;
+}
+
+.use {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: grey;
+
+	position: absolute;
+	bottom: -1px;
+	right: 30px;
+}
+
+.footerBar {
+	height: 42px;
+	width:100%;
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+}
